@@ -1,0 +1,23 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+platformio.override.ini
+
+# Build output
+*.bin
+*.elf
+*.map
+*.hex
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Secrets & local overrides — never commit these
+secrets.h
+config.local.h
